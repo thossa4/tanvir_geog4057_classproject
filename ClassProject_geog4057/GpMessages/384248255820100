@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, December 2, 2024 12:51:28 AM</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "D:\project2\ClassProject_geog4057\ClassProject_geog4057.atbx\Script.tool\tool.script.execute.py", line 66, in &lt;module&gt;
+﻿  File "D:\project2\ClassProject_geog4057\ClassProject_geog4057.atbx\Script.tool\tool.script.execute.py", line 24, in getGeeElevation
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\computedobject.py", line 28, in __call__
+﻿    return type.__call__(cls, *args, **kwargs)
+﻿           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\deprecation.py", line 124, in Wrapper
+﻿    return func(*args, **kwargs)
+﻿           ^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\image.py", line 75, in __init__
+﻿    self.initialize()
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\image.py", line 121, in initialize
+﻿    apifunction.ApiFunction.importApi(cls, cls.name(), cls.name())
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\_utils.py", line 38, in wrapper
+﻿    return func(*args, **kwargs)
+﻿           ^^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\apifunction.py", line 197, in importApi
+﻿    cls.initialize()
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\apifunction.py", line 161, in initialize
+﻿    signatures = data.getAlgorithms()
+﻿                 ^^^^^^^^^^^^^^^^^^^^
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\data.py", line 1479, in getAlgorithms
+﻿    _get_cloud_projects()
+﻿  File "C:\Users\User\.conda\envs\acrpy_clone\Lib\site-packages\ee\data.py", line 350, in _get_cloud_projects
+﻿    raise ee_exception.EEException(_NOT_INITIALIZED_MESSAGE)
+﻿ee.ee_exception.EEException: Earth Engine client library not initialized. See http://goo.gle/ee-auth.
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (Script).</msg><msg code="0" type="3">Failed at Monday, December 2, 2024 12:51:29 AM (Elapsed Time: 0.48 seconds)</msg></messages>

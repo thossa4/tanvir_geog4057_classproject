@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, December 2, 2024 12:34:13 AM</msg><msg code="-2147467259" type="100">﻿Traceback (most recent call last):
+﻿  File "D:\project2\ClassProject_geog4057\ClassProject_geog4057.atbx\Script.tool\tool.script.execute.py", line 63, in &lt;module&gt;
+﻿ValueError: invalid literal for int() with base 10: 'boundary.csv'
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (Script).</msg><msg code="0" type="3">Failed at Monday, December 2, 2024 12:34:23 AM (Elapsed Time: 9.43 seconds)</msg></messages>

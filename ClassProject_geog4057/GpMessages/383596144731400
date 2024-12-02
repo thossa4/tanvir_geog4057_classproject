@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, December 2, 2024 12:40:36 AM</msg><msg code="-2147467259" type="100">﻿  File "D:\project2\ClassProject_geog4057\ClassProject_geog4057.atbx\Script.tool\tool.script.execute.py", line 1
+    C:\Users\User\AppData\Local\Temp\ArcGISProTemp16220\tmpcjwpda.py
+       ^
+﻿SyntaxError: unexpected character after line continuation character
+</msg><msg code="0" type="0">Failed script Script...</msg><msg code="-2147467259" type="100">Failed to execute (Script).</msg><msg code="0" type="3">Failed at Monday, December 2, 2024 12:40:36 AM (Elapsed Time: 0.24 seconds)</msg></messages>
